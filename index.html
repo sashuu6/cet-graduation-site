@@ -32,19 +32,19 @@ Note: A "positioned" element is one whose position is anything except static.
 Here is a simple example:
 
 		</div>
-		<div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div>
+		<div class="flex-container">
+  			<div>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+Here is a simple example:</div>
+  			<div>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+Note: A "positioned" element is one whose position is anything except static.
+			</div>
+  			<div>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+			</div>  
+	     </div>
 	</div>
 </body>
 </html>
