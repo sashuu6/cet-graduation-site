@@ -15,7 +15,7 @@ body{
 
 .main
 {
-	margin: auto;
+	margin: 0px 10px 0px 10px;
 	max-width: 1200px;
 	height: auto;
 	background-color: white;
@@ -49,6 +49,7 @@ body{
   margin: 3px;
   text-align: center;
   line-height: 30px;
+  height: auto;
 }
 .flex-container > .left{
 	width:20%;
@@ -95,9 +96,7 @@ body{
 	color: white;
 }
 .middlebottom{
-	position: relative;
 	box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.78);
-	bottom: 0px;
 }
 .middlecontent{
 	font-size: 20px;
