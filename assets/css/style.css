@@ -7837,6 +7837,14 @@ button.bg-dark:focus {
 .shadow-none {
   box-shadow: none !important;
 }
+.shadow-try{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.text-try{
+  font-size: 1.5vw;
+}
+
+
 
 .w-25 {
   width: 25% !important;
