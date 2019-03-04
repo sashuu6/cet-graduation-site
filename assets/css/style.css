@@ -9965,9 +9965,10 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 .titles{
-  background-color: #002147;
+  background-color: #370810;
   color: white;
   text-align: justify;
+  font-weight: bold;
 }
 
 @media print {
