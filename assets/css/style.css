@@ -553,6 +553,14 @@ pre code {
   margin-left: auto;
 }
 
+.blink {
+        animation: blinker 3s linear infinite;
+        color: #800000;
+       }
+      @keyframes blinker {  
+        40% { opacity: 0; }
+       }
+
 .marquee {
     width: 100%;
     margin: 0 auto;
